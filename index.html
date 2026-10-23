@@ -4,19 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#000000">
-  <title>Your Name — Full-Stack Engineer</title>
+  <title>FOZO DEV — Full-Stack Engineer</title>
   <meta name="description" content="Full-stack engineer portfolio.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+<noscript><style>.loader{display:none!important}.reveal{opacity:1!important;transform:none!important}body.is-loading{overflow:auto!important}</style></noscript>
 </head>
 <body class="is-loading">
 
   <!-- Loading screen -->
   <div class="loader" id="loader" aria-hidden="true">
     <div class="loader__inner">
-      <span class="loader__name">Your Name</span>
+      <span class="loader__name">FOZO DEV</span>
       <div class="loader__bar"><i id="loaderBar"></i></div>
       <span class="loader__count"><b id="loaderCount">0</b>%</span>
     </div>
@@ -28,7 +29,7 @@
 
   <!-- Header -->
   <header class="nav" id="nav">
-    <a href="#home" class="nav__brand">Your Name</a>
+    <a href="#home" class="nav__brand">FOZO DEV</a>
     <nav class="nav__links">
       <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
       <a href="#about" data-en="About" data-ar="من أنا">About</a>
@@ -48,7 +49,7 @@
       <span class="badge reveal"><i class="dot"></i><span data-en="Available for new projects" data-ar="متاح لمشاريع جديدة">Available for new projects</span></span>
       <p class="hero__hi reveal" data-en="Hi, I’m" data-ar="أهلاً، أنا">Hi, I’m</p>
       <h1 class="hero__title reveal">
-        <span class="hero__name">Your Name</span>
+        <span class="hero__name">FOZO DEV</span>
         <span><em data-en="builds" data-ar="أبني">builds</em> <span data-en="things" data-ar="أشياء">things</span></span>
         <span data-en="that feel real." data-ar="تبدو حقيقية.">that feel real.</span>
       </h1>
@@ -75,15 +76,15 @@
       <blockquote data-en="“Code is a quiet form of writing. What separates a professional from a beginner isn’t the big features, it’s taste.”" data-ar="«الكود شكل هادئ من الكتابة. اللي بيفرّق المحترف عن المبتدئ مش المزايا الكبيرة، هو الذوق.»">
         “Code is a quiet form of writing. What separates a professional from a beginner isn’t the big features, it’s taste.”
       </blockquote>
-      <cite>Your Name, notes from the craft</cite>
+      <cite>FOZO DEV, notes from the craft</cite>
     </section>
 
     <!-- About -->
     <section class="about" id="about">
       <h2 class="title reveal"><span data-en="Who I" data-ar="من">Who I</span> <em data-en="am" data-ar="أنا">am</em></h2>
       <div class="about__grid">
-        <p class="reveal" data-en="I’m <strong>Your Name</strong>, a developer who turns ideas into real, functional products: professional websites, powerful Discord bots, backend services and automation systems that hold up in production." data-ar="أنا <strong>اسمك</strong>، مطوّر بحوّل الأفكار لمنتجات حقيقية: مواقع احترافية وبوتات ديسكورد قوية وخدمات باك إند وأنظمة أتمتة تصمد في الإنتاج.">
-          I’m <strong>Your Name</strong>, a developer who turns ideas into real, functional products: professional websites, powerful Discord bots, backend services and automation systems that hold up in production.
+        <p class="reveal" data-en="I’m <strong>FOZO DEV</strong>, a developer who turns ideas into real, functional products: professional websites, powerful Discord bots, backend services and automation systems that hold up in production." data-ar="أنا <strong>FOZO DEV</strong>، مطوّر بحوّل الأفكار لمنتجات حقيقية: مواقع احترافية وبوتات ديسكورد قوية وخدمات باك إند وأنظمة أتمتة تصمد في الإنتاج.">
+          I’m <strong>FOZO DEV</strong>, a developer who turns ideas into real, functional products: professional websites, powerful Discord bots, backend services and automation systems that hold up in production.
         </p>
         <p class="reveal" data-en="I build with <strong>JavaScript, Python and TypeScript</strong>, and I care about the details people feel without noticing." data-ar="بشتغل بـ <strong>JavaScript وPython وTypeScript</strong>، وبهتم بالتفاصيل اللي الناس بتحسها من غير ما تلاحظها.">
           I build with <strong>JavaScript, Python and TypeScript</strong>, and I care about the details people feel without noticing.
@@ -156,16 +157,136 @@
       <h2 class="title reveal"><span data-en="Let’s" data-ar="خلينا">Let’s</span> <em data-en="connect" data-ar="نتواصل">connect</em></h2>
       <p class="lead reveal" data-en="Have a project in mind? Let’s build something beautiful and simple together." data-ar="عندك مشروع في بالك؟ خلينا نبني حاجة جميلة وبسيطة سوا.">Have a project in mind? Let’s build something beautiful and simple together.</p>
       <a class="contact__link reveal" href="https://discord.com/users/YOUR_DISCORD_ID" target="_blank" rel="noopener">
-        <span>Discord</span><b>your_username</b>
+        <span>Discord</span><b>fozo.dev</b>
       </a>
     </section>
   </main>
 
   <footer class="footer">
-    <span>Your Name</span>
-    <span>© 2026 Your Name. Crafted with care.</span>
+    <span>FOZO DEV</span>
+    <span>© 2026 FOZO DEV. Crafted with care.</span>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+(() => {
+  const $ = (s, c = document) => c.querySelector(s);
+  const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+  const root = document.documentElement;
+
+  /* ---------- Loader ---------- */
+  const loader = $('#loader');
+  const bar = $('#loaderBar');
+  const count = $('#loaderCount');
+  let progress = 0;
+  let pageLoaded = false;
+
+  window.addEventListener('load', () => { pageLoaded = true; });
+
+  if (document.readyState === 'complete') pageLoaded = true;
+  // safety: never let the loader hang
+  setTimeout(() => { pageLoaded = true; }, 3500);
+
+  const tick = setInterval(() => {
+    // Ease toward 90% while loading, then finish once the page is ready
+    const target = pageLoaded ? 100 : 90;
+    progress += Math.max(1, (target - progress) * 0.08);
+    if (progress >= 99.5) progress = 100;
+    bar.style.width = progress + '%';
+    count.textContent = Math.floor(progress);
+    if (progress >= 100) {
+      clearInterval(tick);
+      setTimeout(() => {
+        loader.classList.add('is-done');
+        document.body.classList.remove('is-loading');
+        revealHero();
+      }, 250);
+    }
+  }, 40);
+
+  function revealHero() {
+    $$('.hero .reveal').forEach((el, i) =>
+      setTimeout(() => el.classList.add('is-in'), 150 * i));
+  }
+
+  /* ---------- Custom cursor ---------- */
+  const fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
+  if (fine) {
+    root.classList.add('has-cursor');
+    const dot = $('#cursorDot');
+    const ring = $('#cursorRing');
+    let mx = innerWidth / 2, my = innerHeight / 2;
+    let rx = mx, ry = my;
+
+    addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      dot.style.transform = `translate3d(${mx}px,${my}px,0)`;
+      dot.classList.add('is-visible');
+      ring.classList.add('is-visible');
+    });
+    document.addEventListener('mouseleave', () => {
+      dot.classList.remove('is-visible');
+      ring.classList.remove('is-visible');
+    });
+    addEventListener('mousedown', () => ring.classList.add('is-down'));
+    addEventListener('mouseup', () => ring.classList.remove('is-down'));
+
+    const hoverables = 'a, button, .card, .pack, .chips span';
+    document.addEventListener('mouseover', e => {
+      if (e.target.closest(hoverables)) ring.classList.add('is-hover');
+    });
+    document.addEventListener('mouseout', e => {
+      if (e.target.closest(hoverables)) ring.classList.remove('is-hover');
+    });
+
+    // Ring follows with smooth lag
+    (function loop() {
+      rx += (mx - rx) * 0.16;
+      ry += (my - ry) * 0.16;
+      ring.style.transform = `translate3d(${rx}px,${ry}px,0)`;
+      requestAnimationFrame(loop);
+    })();
+  }
+
+  /* ---------- Nav scroll state ---------- */
+  const nav = $('#nav');
+  const onScroll = () => nav.classList.toggle('is-scrolled', scrollY > 30);
+  addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Scroll reveal ---------- */
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting) {
+        en.target.classList.add('is-in');
+        io.unobserve(en.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  $$('.reveal').forEach(el => { if (!el.closest('.hero')) io.observe(el); });
+
+  /* ---------- Card spotlight ---------- */
+  $$('.card').forEach(card => {
+    card.addEventListener('mousemove', e => {
+      const r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      card.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  /* ---------- Language toggle (EN / AR) ---------- */
+  const langBtn = $('#langBtn');
+  let lang = 'en';
+  langBtn.addEventListener('click', () => {
+    lang = lang === 'en' ? 'ar' : 'en';
+    root.lang = lang;
+    root.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    $$('[data-en]').forEach(el => {
+      const v = el.dataset[lang];
+      if (v) el.innerHTML = v;
+    });
+  });
+})();
+
+</script>
 </body>
 </html>
